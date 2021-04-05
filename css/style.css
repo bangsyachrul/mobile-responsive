@@ -1,0 +1,113 @@
+* {
+    font-family: 'Crimson Text', serif;
+}
+
+/* ----- Baris 1 ------ */
+header {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.bar-teks {
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.row ul li a.bar-header {
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
+/* ----- Akhir Baris 1 ------ */
+
+
+
+/* ----- Baris 2 ------ */
+#intro-header {
+    background-image: url(../img/newzealand.jpg);
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid salmon;
+    border-bottom: 2px solid salmon;
+}
+.line-teks {
+    line-height: 120px;
+}
+/* ----- Akhir Baris 2 ------ */
+
+
+
+/* ---- Baris 3 ---- */
+#about {
+    background-color: whitesmoke;
+}
+img.img-effect {
+    width: 500px;
+    height:400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(231, 219, 107);
+    border-radius: 20px;
+    box-shadow: 7px 7px 8px rgb(121, 166, 233);
+    transition: 1s;
+}
+
+img.img-effect:hover {
+    box-shadow: -7px -7px 8px rgb(121, 166, 233);
+}
+/* ---- Akhir Baris 3 ---- */
+
+
+
+/* ---- Baris 5 ---- */
+.img-size {
+    width: 15px;
+    height: 15px;
+}
+/* ---- Akhir Baris 5 ---- */
+
+/* ---- Baris 6 ---- */
+.job {
+    margin: 10px;
+    padding: 20px;
+}
+/* ---- Akhir Baris 6 ---- */
+
+
+/* ---- Baris 7 ---- */
+#pricing {
+    margin: 20px;
+    background-color: rgb(233, 200, 200);
+    border-radius: 8px;
+}
+/* ---- Akhir Baris 7 ---- */
+
+
+/* ---- Baris 9 ---- */
+img.img-effect-2 {
+    width: 500px;
+    height:400px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(231, 219, 107);
+    border-radius: 20px;
+    box-shadow: 7px 7px 8px rgb(121, 166, 233);
+    transition: 1s;
+}
+
+img.img-effect-2:hover {
+    border-radius: 50%;
+    filter: grayscale(50%);
+    box-shadow: -7px -7px 8px rgb(121, 166, 233);
+}
+/* ---- Akhir Baris 9 ---- */
+
+
+/* --- FOOTER --- */
+footer {
+    margin: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+/* --- AKHIR FOOTER --- */
